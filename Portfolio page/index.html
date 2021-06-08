@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Coin | Welcome </title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <nav>
+    <div class="container">
+      <div class="nav-wrapper">
+          <div class="left-side">
+            <div class="nav-link-wrapper">
+              <a href="index.html">Home</a>
+            </div>
+            <div class="nav-link-wrapper">
+              <a href="about.html">About</a>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="brand">
+              <div>Ignas Davulis</div>
+            </div>
+          </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio1.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo1.png">
+              </div>
+              <div class="subtitle">
+                Matic Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains. Build on Matic
+
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio2.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo2.png">
+              </div>
+              <div class="subtitle">
+                Cardano is a blockchain platform for changemakers, innovators, and visionaries, with the tools and technologies required to create possibility for the many, as well as the few, and bring about positive global change.
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio3.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo3.png">
+              </div>
+              <div class="subtitle">
+                Ethereum is the community-run technology powering the cryptocurrency, ether (ETH) and thousands of decentralized applications.
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio4.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo4.png">
+              </div>
+              <div class="subtitle">
+                Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio5.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo5.png">
+              </div>
+              <div class="subtitle">
+                BNB is the cryptocurrency coin that powers the Binance ecosystem. As one of the world's most popular utility tokens, not only can you buy or sell BNB like any other cryptocurrency, but BNB comes with a wide range of applications and benefits.
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-img-background" style="background-image:url('images/portfolio6.jpg')"></div>
+            <div class="img-text-wrapper">
+              <div class="logo-wrapper">
+                <img src="images/logo6.png">
+              </div>
+              <div class="subtitle">
+                Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide
+              </div>
+          </div>
+        </div>
+        <div class="portfolio-item-wrapper">
+          <div class="portfolio-img-background" style="background-image:url('images/portfolio7.jpg')"></div>
+          <div class="img-text-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logo7.png">
+            </div>
+            <div class="subtitle">
+            Chainlink's decentralized oracle network provides reliable, tamper-proof inputs and outputs for complex smart contracts on any blockchain.
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item-wrapper">
+        <div class="portfolio-img-background" style="background-image:url('images/portfolio8.jpg')"></div>
+        <div class="img-text-wrapper">
+          <div class="logo-wrapper">
+            <img src="images/logo8.png">
+          </div>
+          <div class="subtitle">
+            Litecoin (LTC) is decentralised money, free from censorship and open to all. Send low cost private, secure, borderless payments to anyone, anytime, anywhere.
+          </div>
+      </div>
+    </div>
+    <div class="portfolio-item-wrapper">
+      <div class="portfolio-img-background" style="background-image:url('images/portfolio9.jpg')"></div>
+      <div class="img-text-wrapper">
+        <div class="logo-wrapper">
+          <img src="images/logo9.png">
+        </div>
+        <div class="subtitle">
+          Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on Binance Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE.
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+    portfolioItems.forEach(portfolioItem => {
+      portfolioItem.addEventListener('mouseover', () => {
+        portfolioItem.childNodes[1].classList.add('img-darken')
+      })
+      portfolioItem.addEventListener('mouseout', () => {
+        portfolioItem.childNodes[1].classList.remove('img-darken')
+      })
+    })
+  </script>
+</html>
