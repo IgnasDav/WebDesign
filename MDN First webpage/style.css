@@ -1,0 +1,134 @@
+/*Global*/
+*{
+    margin:0;
+}
+.container{
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+}
+
+body{
+    background: #10002b;
+}
+/*header*/
+header{
+    width: 100%;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+}
+li{
+    display: inline-block;
+    padding-top: 0.75em;
+    padding-left: 1em;
+}
+li:nth-of-type(3){
+    padding-right: 1em;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style-type:none;
+}
+#name{
+    padding-top: 0.75em;
+    padding-left: 1em;
+}
+#name:hover{
+
+}
+li a:hover{
+    color:red;
+
+}
+/*main*/
+.container{
+    border: 2px solid white;
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+    border-radius: 15%;
+}
+.container img{
+    height: 200px;
+    width: 40%;
+    text-align: center;
+    margin: 1em;
+}
+.container p{
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+}
+.container h2{
+    margin: 1em;
+    text-transform: uppercase;
+}
+/*Button 1*/
+#button1 button{
+    margin: 2em auto;
+    padding: 0.1em 1em;
+    border-radius: 15%;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #ffd60a;
+    transition: box-shadow 0.25s, transform 0.25s ;
+}
+#button1 button:hover{
+    box-shadow: 0 0.3em 0.5em #ffd60a;
+    transform: translateY(-0.5em);
+}
+#button1 a{
+    color: #ffd60a;
+}
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+/*Button 2*/
+#button2 button{
+    margin: 2em auto;
+    padding: 0.1em 1em;
+    border-radius: 15%;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #d00000;
+    transition: box-shadow 0.25s, transform 0.25s ;
+}
+#button2 button:hover{
+    box-shadow: 0 0.3em 0.5em #d00000;
+    transform: translateY(-0.5em);
+}
+#button2 a{
+    color: #d00000;
+}
+/*Button 3*/
+#button3 button{
+    margin: 2em auto;
+    padding: 0.1em 1em;
+    border-radius: 15%;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #48cae4;
+    transition: box-shadow 0.25s, transform 0.25s ;
+}
+#button3 button:hover{
+    box-shadow: 0 0.3em 0.5em #48cae4;
+    transform: translateY(-0.5em);
+}
+#button3 a{
+    color: #48cae4;
+}
