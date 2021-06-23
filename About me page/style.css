@@ -1,0 +1,66 @@
+/*Padaryti img i apskritimus su borderiu*/
+body {
+    background: #edf2f4 !important;
+    font-family: Nunito, sans-serif !important;
+    
+}
+.blurb h2{
+    color:#2b2d42;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+.blurb p{
+    color:#2b2d42;
+    font-weight: 100;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*Navbar*/
+#mainNavbar a{
+    text-transform: uppercase;
+}
+#mainNavbar .navbar-brand{
+    color: #ef233c;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color: #ef233c;
+}
+#headingGroup span{
+    color: #d90429;
+}
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+    color: #2b2d42;
+}
+/*javascript*/
+.navbar.scrolled{
+    background: #8d99ae;
+    transition: background 500ms;
+}
+@media(max-width: 1700px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+
+}
+@media(max-width: 1250px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 2rem;
+
+}
+
